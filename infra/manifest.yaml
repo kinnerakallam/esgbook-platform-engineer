@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: pingpong-a
-          image: kinnerakallam/esgbook:main-f4de6e
+          image: kinnerakallam/esgbook:main-61d715
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
@@ -175,7 +175,7 @@ spec:
     spec:
       containers:
         - name: pingpong-b
-          image: kinnerakallam/esgbook:main-f4de6e
+          image: kinnerakallam/esgbook:main-61d715
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
